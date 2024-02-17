@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/verbatim",
+    "sourceMap": false,
+  },
+  "files": [
+    "src/scripts/service-worker.ts",
+    "src/scripts/content-script.ts"
+  ]
+}
