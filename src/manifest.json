@@ -18,5 +18,8 @@
       "matches": ["https://meet.google.com/*"],
       "js": ["content-script.js"]
     }
+  ],
+  "permissions": [
+    "downloads"
   ]
 }
