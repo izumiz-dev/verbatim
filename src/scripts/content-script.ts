@@ -10,7 +10,7 @@ interface InternalCaptionData extends CaptionData {
 }
 
 const captions: InternalCaptionData[] = [];
-const captionsContainerSelector: string = 'div[jsname="dsyhDe"]';
+const captionsContainerSelector: string = 'div[jsname="tgaKEf"]';
 
 const observeDOMChanges = (): void => {
   const captionsContainer: HTMLElement | null = document.querySelector(captionsContainerSelector);
@@ -21,7 +21,6 @@ const observeDOMChanges = (): void => {
       characterData: true,
       subtree: true
     };
-
     const observer: MutationObserver = new MutationObserver((mutationsList) => {
       mutationsList.forEach((mutation) => {
         if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
